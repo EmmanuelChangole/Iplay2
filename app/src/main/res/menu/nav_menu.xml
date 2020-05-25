@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1"
+        >
+        <item
+            android:checkable="true"
+            android:checked="true"
+            android:id="@+id/nav_library"
+            android:title="Library"
+
+            />
+        <item
+            android:checkable="true"
+            android:id="@+id/nav_playlist"
+            android:title="Playlist"
+
+            />
+        <item
+            android:checkable="true"
+            android:id="@+id/nav_folder"
+            android:title="Folder"
+
+            />
+        <item
+            android:checkable="true"
+            android:id="@+id/nav_plyingQueue"
+            android:title="Playing queue"
+
+            />
+        <item
+            android:checkable="true"
+            android:id="@+id/nav_nowPlaying"
+            android:title="Now Playing"
+
+            />
+
+    </group>
+
+    <group
+        android:id="@+id/group2"
+
+        >
+        <item
+            android:checkable="true"
+            android:id="@+id/nav_settings"
+            android:title="Settings"
+
+            />
+        <item
+            android:checkable="true"
+            android:id="@+id/nav_about"
+            android:title="About"
+
+            />
+
+
+    </group>
+
+</menu>

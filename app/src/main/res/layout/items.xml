@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/albumArt"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/music_logo"
+        />
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:id="@+id/myItem"
+        android:layout_toRightOf="@id/albumArt"
+        android:textSize="15sp"
+        android:text="@string/musicName"
+        android:maxLines="1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:id="@+id/timeIndicator"
+        android:text="@string/musicTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/albumArt"
+        android:layout_below="@id/myItem"
+        android:text="@string/artist"
+        android:id="@+id/itemArtist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/albumArt"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"/>
+
+</RelativeLayout>
